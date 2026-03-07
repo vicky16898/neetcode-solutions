@@ -1,3 +1,5 @@
+package twopointer;
+
 public class ContainerWithMostWater {
     public int maxArea(int[] heights) {
         int left = 0;

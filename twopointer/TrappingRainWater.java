@@ -1,3 +1,5 @@
+package twopointer;
+
 // class Solution {
 //     public int trap(int[] height) {
 //         int leftMax = height[0];
