@@ -1,4 +1,4 @@
-class Solution {
+public class TwoIntegerSumII {
     /* Given an array of integers numbers that is sorted in non-decreasing order */
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
