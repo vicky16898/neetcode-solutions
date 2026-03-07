@@ -7,7 +7,6 @@
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![NeetCode](https://img.shields.io/badge/NeetCode-150-00C853?style=for-the-badge&logo=leetcode&logoColor=white)](https://neetcode.io/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-[![Progress](https://img.shields.io/badge/Problems_Solved-3-FF6F00?style=for-the-badge&logo=target&logoColor=white)](#-progress-tracker)
 
 <br/>
 
@@ -25,73 +24,28 @@ This repository contains my solutions to problems from the [NeetCode 150](https:
 
 ---
 
-## 📂 Repository Structure
+## 📂 Topics Covered
 
-```
-neetcode/
-│
-├── 📁 two-pointer/
-│   ├── valid-palindrome.java
-│   ├── two-integer-sum-II.java
-│   └── three-sum.java
-│
-├── 📁 arrays-and-hashing/        # 🔜 Coming Soon
-├── 📁 sliding-window/            # 🔜 Coming Soon
-├── 📁 stack/                     # 🔜 Coming Soon
-├── 📁 binary-search/             # 🔜 Coming Soon
-├── 📁 linked-list/               # 🔜 Coming Soon
-├── 📁 trees/                     # 🔜 Coming Soon
-├── 📁 tries/                     # 🔜 Coming Soon
-├── 📁 heap-priority-queue/       # 🔜 Coming Soon
-├── 📁 backtracking/              # 🔜 Coming Soon
-├── 📁 graphs/                    # 🔜 Coming Soon
-├── 📁 dynamic-programming/       # 🔜 Coming Soon
-├── 📁 greedy/                    # 🔜 Coming Soon
-├── 📁 intervals/                 # 🔜 Coming Soon
-├── 📁 math-and-geometry/         # 🔜 Coming Soon
-├── 📁 bit-manipulation/          # 🔜 Coming Soon
-│
-└── 📄 README.md
-```
+Each folder corresponds to a core DSA topic from the NeetCode roadmap. Browse into any folder to find solutions!
 
----
-
-## 📊 Progress Tracker
-
-| # | Category | Progress | Status |
-|:-:|:---------|:--------:|:------:|
-| 1 | **Arrays & Hashing** | 0 / 9 | ⬜ |
-| 2 | **Two Pointers** | 3 / 5 | 🟡 |
-| 3 | **Sliding Window** | 0 / 6 | ⬜ |
-| 4 | **Stack** | 0 / 7 | ⬜ |
-| 5 | **Binary Search** | 0 / 7 | ⬜ |
-| 6 | **Linked List** | 0 / 11 | ⬜ |
-| 7 | **Trees** | 0 / 15 | ⬜ |
-| 8 | **Tries** | 0 / 3 | ⬜ |
-| 9 | **Heap / Priority Queue** | 0 / 7 | ⬜ |
-| 10 | **Backtracking** | 0 / 9 | ⬜ |
-| 11 | **Graphs** | 0 / 13 | ⬜ |
-| 12 | **Advanced Graphs** | 0 / 6 | ⬜ |
-| 13 | **1-D Dynamic Programming** | 0 / 12 | ⬜ |
-| 14 | **2-D Dynamic Programming** | 0 / 11 | ⬜ |
-| 15 | **Greedy** | 0 / 8 | ⬜ |
-| 16 | **Intervals** | 0 / 6 | ⬜ |
-| 17 | **Math & Geometry** | 0 / 8 | ⬜ |
-| 18 | **Bit Manipulation** | 0 / 7 | ⬜ |
-
-> **Legend:** ⬜ Not Started &nbsp; 🟡 In Progress &nbsp; 🟢 Completed
-
----
-
-## ✅ Solved Problems
-
-### Two Pointers
-
-| Problem | Difficulty | Solution | Key Technique |
-|:--------|:----------:|:--------:|:--------------|
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy | [Java](two-pointer/valid-palindrome.java) | Left-right pointers, string cleanup |
-| [Two Integer Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium | [Java](two-pointer/two-integer-sum-II.java) | Sorted array, two pointers squeeze |
-| [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium | [Java](two-pointer/three-sum.java) | Sort + fix one + two-pointer sweep |
+| | Topic | Description |
+|:-:|:------|:------------|
+| 🔢 | **Arrays & Hashing** | Hash maps, frequency counting, prefix sums |
+| 👉👈 | **Two Pointers** | Left-right traversal on sorted data |
+| 🪟 | **Sliding Window** | Variable/fixed-size window techniques |
+| 📚 | **Stack** | Monotonic stacks, balanced brackets |
+| 🔍 | **Binary Search** | Search in sorted/rotated arrays |
+| 🔗 | **Linked List** | Reversal, merging, cycle detection |
+| 🌲 | **Trees** | Traversals, BST operations, DFS/BFS |
+| 🔤 | **Tries** | Prefix trees, word search |
+| ⛰️ | **Heap / Priority Queue** | Top-K elements, scheduling |
+| 🔙 | **Backtracking** | Permutations, combinations, subsets |
+| 🗺️ | **Graphs** | DFS, BFS, topological sort, union-find |
+| 📈 | **Dynamic Programming** | Memoization, tabulation, state machines |
+| 🤑 | **Greedy** | Interval scheduling, optimal substructure |
+| 📐 | **Intervals** | Merging, inserting, overlapping intervals |
+| 🧮 | **Math & Geometry** | Modular arithmetic, matrix operations |
+| 💾 | **Bit Manipulation** | XOR tricks, bitmasks, shifting |
 
 ---
 
@@ -117,20 +71,6 @@ Each solution in this repository follows these principles:
 - **⚡ Optimal Solutions** — Focused on optimal time & space complexity
 - **🏗️ Organized by Topic** — Easy to find and review by category
 - **🔁 Iterative Improvement** — Solutions refined over multiple passes
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-| | Technology | Purpose |
-|:-:|:-----------|:--------|
-| ☕ | **Java** | Primary language |
-| 📚 | **NeetCode 150** | Problem set |
-| 🧪 | **LeetCode** | Testing & submission |
-
-</div>
 
 ---
 
