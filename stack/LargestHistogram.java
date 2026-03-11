@@ -1,3 +1,7 @@
+package stack;
+
+import java.util.Stack;
+
 public class LargestHistogram {
     public int largestRectangleArea(int[] heights) {
         Stack<Pair<Integer, Integer>> stack = new Stack<>();
@@ -22,5 +26,23 @@ public class LargestHistogram {
             max = Math.max(max, rect.getValue() * (end - rect.getKey()));
         }
         return max;
+    }
+}
+
+class Pair<K, V> {
+    private K key;
+    private V value;
+
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue() {
+        return value;
     }
 }
