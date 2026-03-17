@@ -1,3 +1,8 @@
+package SlidingWindow;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class MaxSubstringWithCharacterReplacement {
     public int characterReplacement(String s, int k) {
         Map<Character, Integer> map = new HashMap<>();
