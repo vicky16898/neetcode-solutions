@@ -1,5 +1,8 @@
 package SlidingWindow;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class SlidingWindowMax {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int[] res = new int[nums.length - k + 1];
