@@ -9,12 +9,10 @@ public class PrefixTree {
 
     public void insert(String word) {
         Trie localTrie = trie;
-        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < word.length(); i++) {
-            sb.append(word.charAt(i));
+
             if (localTrie.children[word.charAt(i) - 'a'] == null) {
                 localTrie.children[word.charAt(i) - 'a'] = new Trie();
-                localTrie.children[word.charAt(i) - 'a'].prefix = sb.toString();
             }
             localTrie = localTrie.children[word.charAt(i) - 'a'];
         }
@@ -47,12 +45,10 @@ public class PrefixTree {
 class Trie {
     Trie[] children;
     boolean isEnd;
-    String prefix;
 
     public Trie() {
         children = new Trie[26];
         isEnd = false;
-        prefix = "";
     }
 
 }
